@@ -10,11 +10,10 @@ pipeline{
 
             steps{
 
-                gitCheckout(
+            gitCheckout(
                 branch: "main",
                 url: "https://github.com/avatareleniyan1/java-app.git"
-            )                     
-                
+            )                         
             }
         }
     }
